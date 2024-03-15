@@ -10,7 +10,7 @@ const AddTransformationType = async ({
 }: SearchParamProps) => {
   const transformation = transformationTypes[type];
   const { userId } = auth();
-  console.log("userId", userId);
+  // console.log("userId", userId);
 
   if (!userId) redirect("/sign-in");
 
